@@ -7,7 +7,7 @@ body {
 }
 
 .fondo {
-    background-image: url('img/fondi.png');
+    background-image: url('fondi.png');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -409,3 +409,4 @@ footer {
     opacity: 1;
 
 }
+
