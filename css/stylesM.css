@@ -1,0 +1,299 @@
+/* ---------- ESTILOS GENERALES ---------- */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    line-height: 1;
+  
+        
+}
+
+.b2{
+ background-color: #00000000;
+    color: white;
+    height: 2500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+   
+
+
+}
+
+.menu-container {
+
+    width: 1300px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    background-blend-mode: overlay;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+    z-index: 50;
+    
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h1 span {
+    background-color: #ff0000;
+    padding: 5px 15px;
+    color: black;
+    margin-left: 5px;
+}
+
+/* Menu columns layout */
+.menu-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.menu-column {
+    flex: 1;
+}
+
+/* Food category styles */
+.menu-section {
+    margin-bottom: 30px;
+}
+
+
+
+.food-category {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 10px;
+}
+
+.category-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+    border: 2px solid #ffffff;
+}
+
+.category-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.food-category h2 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* Food items styles */
+.food-items {
+    padding-left: 15px;
+}
+
+.food-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+.food-name {
+    font-size: 1.1rem;
+}
+
+.food-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #b6a600;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 30px;
+    border-top: 2px solid #ff0000;
+    padding-top: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-item h3 {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.contact-item p {
+    background-color: #ffffff;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* ---------- HEADER Y NAVEGACIÓN ---------- */
+header {
+    background-color: rgba(0, 0, 0, 0.356);
+    position: sticky; 
+    top: 0px;
+    z-index: 100;
+}
+
+.logo-image {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover; 
+    opacity: 1;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+
+nav ul {
+   
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 550;
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    
+    color: #ff0000; 
+}
+
+.bg-wrapper {
+    
+    background-image: url('/img/fondi.png'); 
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     height: 2700px;
+    position: absolute;
+    z-index: -50;
+
+}
+.foto {
+
+   position: relative;
+width: 100%;
+top: -125px;
+
+
+}
+
+  /* ---------- FOOTER ---------- */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 60px 0 30px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.p1 {
+    font-size: 17px;
+    color: #ffffff;
+}
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #b22222;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+
+
+.footer-section ul li a:hover {
+    color: white;
+}
+
+
+
+/* Texto de copyright */
+.copyright {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid #444;
+    color: #aaa;
+    font-size: 14px;
+}
+.loguito {
+    position: absolute;
+    top: 2620px;
+    left: 120px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover; 
+    opacity: 1;
+}
